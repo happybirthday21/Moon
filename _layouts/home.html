@@ -10,7 +10,10 @@ layout: compress
     {% include head.html %}
 </head>
 <body>
-    <embed name="birthday" src="{{ site.url }}/assets/birthday.mp3" loop="true" hidden="true" autostart="true" type="audio/x-pn-realaudio-plugin">
+   <audio class="song" autoplay="true" controls="" loop="true" style="display: none;">
+        <source src="https://happybirthday21.github.io/assets/birthday.mp3">
+	   Your browser doesn't support this audio.
+    </audio>
     {% include open-embed.html %}
     {% include nav.html %}
     <!-- Header -->
