@@ -10,10 +10,6 @@ layout: compress
     {% include head.html %}
 </head>
 <body>
-   <audio class="song" autoplay="true" controls="" loop="true" style="display: none;">
-        <source src="https://happybirthday21.github.io/assets/birthday.mp3">
-	   Your browser doesn't support this audio.
-    </audio>
     {% include open-embed.html %}
     {% include nav.html %}
     <!-- Header -->
@@ -36,6 +32,10 @@ layout: compress
                     </h3>
                     {% include social-links.html %}
                   <hr class="hr-line">
+                <audio class="song" autoplay="true" controls="" loop="">
+                    <source src="happybirthday21.github.io/assets/birthday.mp3">
+	                Your browser doesn't support the audio element.
+                </audio>
                   <h3 class="title">
                          <a class="btn zoombtn" href="{{ site.url }}/posts">
                          Click here 💗
